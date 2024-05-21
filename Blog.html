@@ -6,9 +6,10 @@
 <body>
     <div class="grid">
     <div class="col1">
-        <div class="Title">Lorem Ipsum
-        "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</div>
+        <div class="title">Lorem Ipsum</div>
+            <b>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</b>
+        <br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla sit amet augue ut sollicitudin. Nulla non consequat lectus. Cras hendrerit nunc a dapibus euismod. Sed sit amet mauris quis tellus placerat accumsan et eget metus. Quisque ac ullamcorper neque. Maecenas auctor, ipsum fermentum ornare convallis, tellus velit bibendum arcu, ac dictum quam arcu at nunc. Morbi et mattis diam. Aliquam eu est quis purus varius aliquet. Vestibulum aliquam malesuada varius.
         
         Vivamus dictum, quam ac egestas ultrices, nibh metus malesuada dui, iaculis posuere ex lectus in felis. Phasellus at arcu commodo, dictum est vel, tempus felis. Curabitur sed sapien tincidunt, vehicula lorem vitae, pulvinar erat. Maecenas condimentum luctus lacinia. Duis sit amet consequat dolor. Aenean in sem nisl. Mauris sit amet risus sit amet enim convallis vehicula. Maecenas sit amet egestas sapien, in consectetur mauris. Nulla accumsan diam non ultrices vulputate. Donec nec lorem sit amet ex euismod sollicitudin. Aenean non dui eu ligula vestibulum condimentum. Vestibulum at neque ac tellus pharetra scelerisque. Donec maximus vehicula erat varius finibus. In id dapibus ante.
@@ -30,40 +31,49 @@ Spring Green #20FC8F
 */
 
 body {
-  background-color: #2D2D2A;
+    background-image: url('background_img_leaves.jpeg');
+    background-size: cover;
 }
-.Title{
-    font-size: large;
+.title{
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
 .subheading{
-    
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
 }
 }
 .grid {
-    color: ghostwhite;
-    background-color: antiquewhite;
+    color: #2D2D2A;
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px;
+    margin: 1%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 .grid .col1  {
+    border-radius: 20px;
     width: calc(60%);
     height: calc(100%);
     margin: 10px;
 }
 .grid .col2  {
+    border-radius: 20px;
     width: calc(30%);
     margin: 10px;
 }
 
 .col1    {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #2D2D2A;
+    background-color: ghostwhite;
     padding: 20px;
 }
 .col2    {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #2D2D2A;
+    background-color: ghostwhite;
     padding: 20px;
 }
 </style>
